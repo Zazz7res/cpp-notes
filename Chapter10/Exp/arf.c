@@ -16,9 +16,6 @@ int main(void)
     printf("The dip array after calling mult_array():\n");
     show_array(dip, SIZE);
 
-
-
-
     return 0;
 
 
@@ -44,15 +41,6 @@ void mult_array(double ar[], int n, double mult)
 
     for (i = 0; i < n; i++)
         ar[i] *= mult;
-
-
-
-
-
-}
-
-
-
 
 
 
