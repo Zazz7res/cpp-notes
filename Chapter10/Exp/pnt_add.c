@@ -23,3 +23,10 @@ int main(void)
 
     return 0;
 }
+
+//double * const pc = rates;  //pc这个指针不允许指向别处
+//但是他可以修改rates数组中的值
+//const double * cp = rates;  //cp这个指针可以指向别处
+//但是不允许通过cp修改rates数组中的值
+//const double * const cpc = rates; //cpc这个指针不允许指
+//向别处,也不允许通过cpc修改rates数组中的值
