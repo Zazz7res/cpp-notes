@@ -17,6 +17,8 @@ int main(void)
     for (index = 0; index < SIZE; index++)
     {
         printf("pointers + %d: %10p %15p\n", index, pti + index, ptf + index);
+
+
         
     }
 
