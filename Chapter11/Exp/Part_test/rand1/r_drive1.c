@@ -16,9 +16,13 @@ int main(void)
         srand1(seed);
         for (count = 0; count < 5; count)
             printf("%d\n", rand1());
-        printf("Please enter next seed (q to 
+        printf("Please enter next seed (q to quit):\n");
+
     }
+    printf("Done\n");
+
+    return 0;
 
 
 
-r_drive1}
+}
