@@ -24,6 +24,7 @@ B	Chapter4/Review/review4.c	/^#define B /;"	d	file:
 BOOK	Chapter4/Review/review5.c	/^#define BOOK /;"	d	file:
 BUGSIZE	Chapter11/Exp/join_chk.c	/^#define BUGSIZE /;"	d	file:
 C Primer Plus 第一章笔记	Chapter1/notes.md	/^# C Primer Plus 第一章笔记$/;"	c
+CHARS	Chapter06/Exp/rows1.c	/^#define CHARS /;"	d	file:
 COLS	Chapter10/Exp/array2d.c	/^#define COLS /;"	d	file:
 COLS	Chapter10/Exp/flc.c	/^#define COLS /;"	d	file:
 C_Cpp.errorSquiggles	.vscode/settings.json	/^    "C_Cpp.errorSquiggles": "disabled"$/;"	s
@@ -61,6 +62,7 @@ NUM	Chapter10/Prac/prac5_v1.c	/^#define NUM /;"	d	file:
 NUM	Chapter10/Prac/prac6_v1.c	/^#define NUM /;"	d	file:
 NUM	Chapter10/Prac_to correct/prac3_to_correct.c	/^#define NUM /;"	d	file:
 PAGES	Chapter4/Exp/width.c	/^#define PAGES /;"	d	file:
+PAR	Chapter06/Exp/scores_in.c	/^#define PAR /;"	d	file:
 PAR	Chapter6/Book/scores_in.c	/^#define PAR /;"	d	file:
 PI	Chapter4/Exp/printout.c	/^#define PI /;"	d	file:
 PLACE	Chapter9/Exp/lethead1.c	/^#define PLACE /;"	d	file:
@@ -70,8 +72,11 @@ PrintArr	Chapter10/Prac_to correct/prac2_to_correct.c	/^void PrintArr(double *pt
 Q	Chapter4/Review/review2.c	/^#define Q /;"	d	file:
 Q	Chapter4/Review/review3.c	/^#define Q /;"	d	file:
 QUIT	Chapter9/hotel/hotel.h	/^#define QUIT /;"	d
+ROWS	Chapter06/Exp/rows1.c	/^#define ROWS /;"	d	file:
 ROWS	Chapter10/Exp/array2d.c	/^#define ROWS /;"	d	file:
 SHOE	Chapter5/Exp/shoes1.c	/^#define SHOE /;"	d	file:
+SIZE	Chapter06/Exp/scores_in.c	/^#define SIZE /;"	d	file:
+SIZE	Chapter06/Review/review10_corrected.c	/^#define SIZE /;"	d	file:
 SIZE	Chapter10/Exp/arf.c	/^#define SIZE /;"	d	file:
 SIZE	Chapter10/Exp/pnt_add.c	/^#define SIZE /;"	d	file:
 SIZE	Chapter10/Exp/sum_arr1.c	/^#define SIZE /;"	d	file:
@@ -127,6 +132,43 @@ interchange	Chapter9/Exp/swap3.c	/^void interchange(int * u, int *v)$/;"	f	typer
 isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
 kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
 label	.vscode/tasks.json	/^            "label": "C\/C++: gcc.exe 生成活动文件",$/;"	s	object:tasks.0
+main	Chapter06/Exp/boolean.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/cmpflt.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/do_while.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/entry.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_13s.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_char.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_cube.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_down.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_geo.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_none.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_show.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/for_wild.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/postage.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/power.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/rows1.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/rows2.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/scores_in.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/summing.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/sweetie1.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/sweetie2.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/t_and_f.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/test_scanf.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/trouble.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/truth.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/when.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Exp/zeno.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Review/review1.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review10_corrected.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review14.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Review/review2.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review3.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review4.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review5.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review6.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review7.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter06/Review/review8.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter06/Review/review9.c	/^int main() {$/;"	f	typeref:typename:int
 main	Chapter1/hello.c	/^int main() $/;"	f	typeref:typename:int
 main	Chapter10/Exp/arf.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/array2d.c	/^int main(void)$/;"	f	typeref:typename:int
@@ -249,6 +291,9 @@ main	Chapter9/Prac/prac1_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/Prac/prac2_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/Prac/prac3_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/hotel/usehotel.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Prac/prac1.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Prac/prac2.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Prac/prac3.c	/^int main(void) {$/;"	f	typeref:typename:int
 menu	Chapter9/hotel/hotel.c	/^int menu(void)$/;"	f	typeref:typename:int
 min	Chapter9/Prac/prac1_v1.c	/^double min(double x, double y)$/;"	f	typeref:typename:double
 moredata	Chapter10/Exp/order.c	/^int moredata[2] = { 300, 400 };$/;"	v	typeref:typename:int[2]
@@ -257,6 +302,7 @@ next	Chapter11/Exp/rand0/rand0.c	/^static unsigned long int next = 1;$/;"	v	type
 next	Chapter11/Exp/rand1/s_and_r.c	/^static unsigned long int next = 1;$/;"	v	typeref:typename:unsigned long int	file:
 options	.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
 pcg	Chapter12/where.c	/^const char * pcg = "String Literal";$/;"	v	typeref:typename:const char *
+power	Chapter06/Exp/power.c	/^double power(double n, int p)$/;"	f	typeref:typename:double
 power	Chapter6/Book/power.c	/^double power(double n, int p)$/;"	f	typeref:typename:double
 print_arr	Chapter10/Prac/prac6_v1.c	/^void print_arr(double * arr, int n)$/;"	f	typeref:typename:void
 print_array	Chapter10/Prac_to correct/prac3_to_correct.c	/^void print_array(int *arr, int size)$/;"	f	typeref:typename:void
