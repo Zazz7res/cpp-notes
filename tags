@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/harry/cpp-notes/	//
+!_TAG_PROC_CWD	/home/haryy/cpp-notes/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -27,10 +27,10 @@ C Primer Plus 第一章笔记	Chapter1/notes.md	/^# C Primer Plus 第一章笔�
 CHARS	Chapter06/Exp/rows1.c	/^#define CHARS /;"	d	file:
 COLS	Chapter10/Exp/array2d.c	/^#define COLS /;"	d	file:
 COLS	Chapter10/Exp/flc.c	/^#define COLS /;"	d	file:
-C_Cpp.errorSquiggles	.vscode/settings.json	/^    "C_Cpp.errorSquiggles": "disabled"$/;"	s
 DEF	Chapter11/Exp/put_out.c	/^#define DEF /;"	d	file:
 DENSITY	Chapter4/Exp/talkback.c	/^#define DENSITY /;"	d	file:
 DISCOUNT	Chapter9/hotel/hotel.h	/^#define DISCOUNT /;"	d
+FELLOW	Chapter02/prac4.c	/^#define FELLOW /;"	d	file:
 FOOT	Chapter5/Exp/shoes1.c	/^#define FOOT /;"	d	file:
 GALLON_TO_LITER	Chapter4/Prac/prac8_v1.c	/^#define GALLON_TO_LITER /;"	d	file:
 HOTEL1	Chapter9/hotel/hotel.h	/^#define HOTEL1 /;"	d
@@ -120,6 +120,7 @@ critic	Chapter11/Exp/global.c	/^void critic(void)$/;"	f	typeref:typename:void
 cubic_value	Chapter5/Question7.c	/^double cubic_value(double n)$/;"	f	typeref:typename:double
 cwd	.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
 data	Chapter10/Exp/order.c	/^int data[2] = { 100, 200 };$/;"	v	typeref:typename:int[2]
+deny	Chapter02/prac4.c	/^void deny(void) {$/;"	f	typeref:typename:void
 detail	.vscode/tasks.json	/^            "detail": "调试器生成的任务。"$/;"	s	object:tasks.0
 diff	Chapter10/Prac/prac5_v1.c	/^double diff(double * arr, int n)$/;"	f	typeref:typename:double
 fact	Chapter9/Exp/factor.c	/^long fact(int n)$/;"	f	typeref:typename:long
@@ -129,10 +130,12 @@ group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
 imax	Chapter10/Exp/proto.c	/^int imax(int n, int m)$/;"	f	typeref:typename:int
 interchange	Chapter9/Exp/swap3.c	/^void interchange(int * u, int *v)$/;"	f	typeref:typename:void
 isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+jolly	Chapter02/prac4.c	/^void jolly(void) {$/;"	f	typeref:typename:void
 kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
 label	.vscode/tasks.json	/^            "label": "C\/C++: gcc.exe 生成活动文件",$/;"	s	object:tasks.0
 main	Chapter02/fathm_ft.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/first.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/prac4.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/stillbad.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/two_func.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter06/Exp/boolean.c	/^int main(void)$/;"	f	typeref:typename:int
