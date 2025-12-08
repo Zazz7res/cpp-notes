@@ -93,12 +93,14 @@ STARS	Chapter9/hotel/hotel.h	/^#define STARS /;"	d
 STLEN	Chapter11/Exp/fgets1.c	/^#define STLEN /;"	d	file:
 STLEN	Chapter11/Exp/fgets3.c	/^#define STLEN /;"	d	file:
 STLEN	Chapter11/Exp/getsputs.c	/^#define STLEN /;"	d	file:
+Smile	Chapter02/Prac/prac7.c	/^void Smile(void) {$/;"	f	typeref:typename:void
 WIDTH	Chapter9/Exp/lethead1.c	/^#define WIDTH /;"	d	file:
 WORDS	Chapter11/Exp/copy2.c	/^#define WORDS /;"	d	file:
 WeekDay	Chapter5/Question3.c	/^#define WeekDay /;"	d	file:
 X	Chapter4/Review/review4.c	/^#define X /;"	d	file:
 YEARS	Chapter10/Exp/rain.c	/^#define YEARS /;"	d	file:
 YEARS	Chapter10/Prac/prac1_v1.c	/^#define YEARS /;"	d	file:
+YEAR_TO_DAY	Chapter02/Prac/prac3.c	/^#define YEAR_TO_DAY /;"	d	file:
 Year	Chapter3/Prac/prac5.c	/^#define Year /;"	d	file:
 accumulate	Chapter11/Exp/Part_test/partb.c	/^void accumulate(int k)$/;"	f	typeref:typename:void
 args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
@@ -106,6 +108,7 @@ author	Chapter14/book.c	/^    char author[MAXAUTL];$/;"	m	struct:book	typeref:ty
 author	Chapter14/manybook.c	/^    char author[MAXAUTL];$/;"	m	struct:book	typeref:typename:char[]	file:
 book	Chapter14/book.c	/^struct book {$/;"	s	file:
 book	Chapter14/manybook.c	/^struct book {$/;"	s	file:
+br	Chapter02/prac5.c	/^void br(void) {$/;"	f	typeref:typename:void
 butler	Chapter02/two_func.c	/^void butler(void) {$/;"	f	typeref:typename:void
 chline	Chapter9/Prac/prac2_v1.c	/^void chline(char ch, int i, int j)$/;"	f	typeref:typename:void
 chline2	Chapter9/Prac/prac3_v1.c	/^void chline2(char ch, int a, int b)$/;"	f	typeref:typename:void
@@ -129,6 +132,7 @@ fact	Chapter9/Exp/factor.c	/^long fact(int n)$/;"	f	typeref:typename:long
 fit	Chapter11/Exp/test_fit.c	/^void fit(char * string, unsigned int size)$/;"	f	typeref:typename:void
 getnights	Chapter9/hotel/hotel.c	/^int getnights(void)$/;"	f	typeref:typename:int
 group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+ic	Chapter02/prac5.c	/^void ic(void) {$/;"	f	typeref:typename:void
 imax	Chapter10/Exp/proto.c	/^int imax(int n, int m)$/;"	f	typeref:typename:int
 interchange	Chapter9/Exp/swap3.c	/^void interchange(int * u, int *v)$/;"	f	typeref:typename:void
 isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
@@ -137,9 +141,14 @@ kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.
 label	.vscode/tasks.json	/^            "label": "C\/C++: gcc.exe 生成活动文件",$/;"	s	object:tasks.0
 main	Chapter02/Prac/prac1.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/Prac/prac2.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/Prac/prac3.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/Prac/prac6.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/Prac/prac7.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/Prac/prac8.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/fathm_ft.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/first.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/prac4.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Chapter02/prac5.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/stillbad.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter02/two_func.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter06/Exp/boolean.c	/^int main(void)$/;"	f	typeref:typename:int
@@ -290,6 +299,7 @@ moredata	Chapter10/Exp/order.c	/^int moredata[2] = { 300, 400 };$/;"	v	typeref:t
 mult_array	Chapter10/Exp/arf.c	/^void mult_array(double ar[], int n, double mult)$/;"	f	typeref:typename:void
 next	Chapter11/Exp/rand0/rand0.c	/^static unsigned long int next = 1;$/;"	v	typeref:typename:unsigned long int	file:
 next	Chapter11/Exp/rand1/s_and_r.c	/^static unsigned long int next = 1;$/;"	v	typeref:typename:unsigned long int	file:
+one_three	Chapter02/Prac/prac8.c	/^void one_three(void) {$/;"	f	typeref:typename:void
 options	.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
 pcg	Chapter12/where.c	/^const char * pcg = "String Literal";$/;"	v	typeref:typename:const char *
 power	Chapter06/Exp/power.c	/^double power(double n, int p)$/;"	f	typeref:typename:double
@@ -336,6 +346,7 @@ turn_back_max	Chapter10/Prac/prac3_v1.c	/^int turn_back_max(int *arr)$/;"	f	type
 turn_back_max_correct	Chapter10/Prac_to correct/prac3_to_correct.c	/^int turn_back_max_correct(int *arr)$/;"	f	typeref:typename:int
 turn_back_max_error	Chapter10/Prac_to correct/prac3_to_correct.c	/^int turn_back_max_error(int *arr)$/;"	f	typeref:typename:int
 turn_back_max_robust	Chapter10/Prac_to correct/prac3_to_correct.c	/^int turn_back_max_robust(int *arr)$/;"	f	typeref:typename:int
+two	Chapter02/Prac/prac8.c	/^void two(void) {$/;"	f	typeref:typename:void
 type	.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
 units	Chapter11/Exp/global.c	/^int units = 0;$/;"	v	typeref:typename:int
 value	Chapter14/book.c	/^    float value;$/;"	m	struct:book	typeref:typename:float	file:
