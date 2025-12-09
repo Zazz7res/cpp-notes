@@ -1,0 +1,73 @@
+// 基本概念
+/*  1.struct 的基本用法  */ 
+
+struct Student {
+    char name[20];
+    int age;
+    float score;
+
+};
+//  使用时必须加 struct 关键字
+struct Student stu1;
+
+
+/*  2.定义结构体类型的同时声明变量  */ 
+
+struct Student {
+    char name[20];
+    int age;
+    float score;
+} stu1, stu2;  //  stu1和stu2是变量，不是类型
+//  这里创建了两个变量，但类型名还是 struct Student 
+
+
+//  typedef 的作用
+/*  1.typedef 的基本语法  */ 
+
+// 给现有类型起别名
+typedef int Integer;  // 给 int 起个别名Integer
+Integer num = 10;     // 等价于 int num = 10;
+
+/*  2.给结构体类型起别名  */ 
+
+//方式1：分两步走
+// 第1步：定义结构体类型
+struct Student {
+    charname[20];
+    int age;
+    float score;
+};
+
+// 第2步：给这个类型起别名
+typedef struct Student Student;  // 把 struct Student 简称为 Student
+
+//使用
+Student stu1;   // 现在可以省略 struct 关键字了
+
+// 方式2：一步到位
+//同时定义结构体类型并起名
+typedef struct Student {
+    char name[20];
+    int age;
+    float score;
+} Student;  // 这里的 Student 是类型别名，不是变量！
+
+
+// 使用
+Student stu1;  // 简洁
+struct Student stu2;  // 两种写法都可以
+                
+// 方式3：匿名结构体+typedef
+/*  不写结构体标签名  */ 
+typedef struct {
+    char name[20];
+    int age;
+    float score;
+} Student;  // 只能用这个别名，不能用struct Student了
+            
+// 使用
+Student stu1;  
+struct Student stu2;  // 错误，因为没有 struct Student 类型。匿名结构体只能声明一次
+
+
+

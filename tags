@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/haryy/cpp-notes/	//
+!_TAG_PROC_CWD	/home/harry/cpp-notes/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -27,6 +27,7 @@ C Primer Plus 第一章笔记	Chapter1/notes.md	/^# C Primer Plus 第一章笔�
 CHARS	Chapter06/Exp/rows1.c	/^#define CHARS /;"	d	file:
 COLS	Chapter10/Exp/array2d.c	/^#define COLS /;"	d	file:
 COLS	Chapter10/Exp/flc.c	/^#define COLS /;"	d	file:
+C_Cpp.errorSquiggles	.vscode/settings.json	/^    "C_Cpp.errorSquiggles": "disabled"$/;"	s
 DEF	Chapter11/Exp/put_out.c	/^#define DEF /;"	d	file:
 DENSITY	Chapter4/Exp/talkback.c	/^#define DENSITY /;"	d	file:
 DISCOUNT	Chapter9/hotel/hotel.h	/^#define DISCOUNT /;"	d
@@ -241,7 +242,7 @@ main	Chapter11/Exp/strings1.c	/^ int main(void)$/;"	f	typeref:typename:int
 main	Chapter11/Exp/test_fit.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter12/dyn_arr.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter12/where.c	/^int main()$/;"	f	typeref:typename:int
-main	Chapter14/book.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter14/book.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter14/copy1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter14/manybook.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter3/Prac/prac2-1.c	/^int main(void)$/;"	f	typeref:typename:int
@@ -290,9 +291,6 @@ main	Chapter9/Prac/prac1_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/Prac/prac2_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/Prac/prac3_v1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter9/hotel/usehotel.c	/^int main(void)$/;"	f	typeref:typename:int
-main	Prac/prac1.c	/^int main(void) {$/;"	f	typeref:typename:int
-main	Prac/prac2.c	/^int main(void) {$/;"	f	typeref:typename:int
-main	Prac/prac3.c	/^int main(void) {$/;"	f	typeref:typename:int
 menu	Chapter9/hotel/hotel.c	/^int menu(void)$/;"	f	typeref:typename:int
 min	Chapter9/Prac/prac1_v1.c	/^double min(double x, double y)$/;"	f	typeref:typename:double
 moredata	Chapter10/Exp/order.c	/^int moredata[2] = { 300, 400 };$/;"	v	typeref:typename:int[2]
@@ -319,7 +317,7 @@ roll_n_dice	Chapter11/Exp/diceroll/diceroll.c	/^int roll_n_dice(int dice, int si
 rollem	Chapter11/Exp/diceroll/diceroll.c	/^static int rollem(int sides)$/;"	f	typeref:typename:int	file:
 s_gets	Chapter11/Exp/join_chk.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
 s_gets	Chapter11/Exp/str_cat.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
-s_gets	Chapter14/book.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
+s_gets	Chapter14/book.c	/^char * s_gets(char * st, int n) {$/;"	f	typeref:typename:char *
 s_gets	Chapter14/copy1.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
 s_gets	Chapter14/manybook.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
 show_array	Chapter10/Exp/arf.c	/^void show_array(const double ar[], int n)$/;"	f	typeref:typename:void
