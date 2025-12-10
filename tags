@@ -42,10 +42,13 @@ Hour	Chapter3/Prac/prac5.c	/^#define Hour /;"	d	file:
 Inchs	Chapter3/Prac/prac7.c	/^#define Inchs /;"	d	file:
 LIM	Chapter11/Exp/arrchar.c	/^#define LIM /;"	d	file:
 LIM	Chapter14/copy1.c	/^#define LIM /;"	d	file:
+MAXAUTL	Chapter14/Exp/manybook.c	/^#define MAXAUTL /;"	d	file:
 MAXAUTL	Chapter14/book.c	/^#define MAXAUTL /;"	d	file:
 MAXAUTL	Chapter14/manybook.c	/^#define MAXAUTL /;"	d	file:
+MAXBKS	Chapter14/Exp/manybook.c	/^#define MAXBKS /;"	d	file:
 MAXBKS	Chapter14/manybook.c	/^#define MAXBKS /;"	d	file:
 MAXLENGTH	Chapter11/Exp/strings1.c	/^ #define MAXLENGTH /;"	d	file:
+MAXTITL	Chapter14/Exp/manybook.c	/^#define MAXTITL /;"	d	file:
 MAXTITL	Chapter14/book.c	/^#define MAXTITL /;"	d	file:
 MAXTITL	Chapter14/manybook.c	/^#define MAXTITL /;"	d	file:
 MILE_TO_KM	Chapter4/Prac/prac8_v1.c	/^#define MILE_TO_KM /;"	d	file:
@@ -105,8 +108,10 @@ YEAR_TO_DAY	Chapter02/Prac/prac3.c	/^#define YEAR_TO_DAY /;"	d	file:
 Year	Chapter3/Prac/prac5.c	/^#define Year /;"	d	file:
 accumulate	Chapter11/Exp/Part_test/partb.c	/^void accumulate(int k)$/;"	f	typeref:typename:void
 args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+author	Chapter14/Exp/manybook.c	/^    char author[MAXAUTL];$/;"	m	struct:book	typeref:typename:char[]	file:
 author	Chapter14/book.c	/^    char author[MAXAUTL];$/;"	m	struct:book	typeref:typename:char[]	file:
 author	Chapter14/manybook.c	/^    char author[MAXAUTL];$/;"	m	struct:book	typeref:typename:char[]	file:
+book	Chapter14/Exp/manybook.c	/^struct book {$/;"	s	file:
 book	Chapter14/book.c	/^struct book {$/;"	s	file:
 book	Chapter14/manybook.c	/^struct book {$/;"	s	file:
 br	Chapter02/prac5.c	/^void br(void) {$/;"	f	typeref:typename:void
@@ -242,6 +247,7 @@ main	Chapter11/Exp/strings1.c	/^ int main(void)$/;"	f	typeref:typename:int
 main	Chapter11/Exp/test_fit.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter12/dyn_arr.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter12/where.c	/^int main()$/;"	f	typeref:typename:int
+main	Chapter14/Exp/manybook.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter14/book.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter14/copy1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter14/manybook.c	/^int main(void)$/;"	f	typeref:typename:int
@@ -317,6 +323,7 @@ roll_n_dice	Chapter11/Exp/diceroll/diceroll.c	/^int roll_n_dice(int dice, int si
 rollem	Chapter11/Exp/diceroll/diceroll.c	/^static int rollem(int sides)$/;"	f	typeref:typename:int	file:
 s_gets	Chapter11/Exp/join_chk.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
 s_gets	Chapter11/Exp/str_cat.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
+s_gets	Chapter14/Exp/manybook.c	/^char * s_gets(char * st, int n) {$/;"	f	typeref:typename:char *
 s_gets	Chapter14/book.c	/^char * s_gets(char * st, int n) {$/;"	f	typeref:typename:char *
 s_gets	Chapter14/copy1.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
 s_gets	Chapter14/manybook.c	/^char * s_gets(char * st, int n)$/;"	f	typeref:typename:char *
@@ -333,6 +340,7 @@ sum_cols	Chapter10/Exp/array2d.c	/^void sum_cols(int ar[][COLS], int rows)$/;"	f
 sum_rows	Chapter10/Exp/array2d.c	/^void sum_rows(int ar[][COLS], int rows)$/;"	f	typeref:typename:void
 sump	Chapter10/Exp/sum_arr2.c	/^int sump(int * start, int * end)$/;"	f	typeref:typename:int
 tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
+title	Chapter14/Exp/manybook.c	/^    char title[MAXTITL];$/;"	m	struct:book	typeref:typename:char[]	file:
 title	Chapter14/book.c	/^    char title[MAXTITL];$/;"	m	struct:book	typeref:typename:char[]	file:
 title	Chapter14/manybook.c	/^    char title[MAXTITL];$/;"	m	struct:book	typeref:typename:char[]	file:
 to_binary	Chapter9/Exp/binary.c	/^void to_binary(unsigned long n)$/;"	f	typeref:typename:void
@@ -347,6 +355,7 @@ turn_back_max_robust	Chapter10/Prac_to correct/prac3_to_correct.c	/^int turn_bac
 two	Chapter02/Prac/prac8.c	/^void two(void) {$/;"	f	typeref:typename:void
 type	.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
 units	Chapter11/Exp/global.c	/^int units = 0;$/;"	v	typeref:typename:int
+value	Chapter14/Exp/manybook.c	/^    float value;$/;"	m	struct:book	typeref:typename:float	file:
 value	Chapter14/book.c	/^    float value;$/;"	m	struct:book	typeref:typename:float	file:
 value	Chapter14/manybook.c	/^    float value;$/;"	m	struct:book	typeref:typename:float	file:
 version	.vscode/tasks.json	/^    "version": "2.0.0"$/;"	s
