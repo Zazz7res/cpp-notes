@@ -218,7 +218,7 @@ main	Chapter10/Exp/order.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/pnt_add.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/proto.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/ptr_ops.c	/^int main(void)$/;"	f	typeref:typename:int
-main	Chapter10/Exp/rain.c	/^int main(void)$/;"	f	typeref:typename:int
+main	Chapter10/Exp/rain.c	/^int main(void) {$/;"	f	typeref:typename:int
 main	Chapter10/Exp/sum_arr1.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/sum_arr2.c	/^int main(void)$/;"	f	typeref:typename:int
 main	Chapter10/Exp/zippo1.c	/^int main(void)$/;"	f	typeref:typename:int
